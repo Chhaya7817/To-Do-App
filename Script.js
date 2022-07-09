@@ -4,7 +4,7 @@ var btn = document.querySelector(".todo-button");
 var todoList = document.querySelector(".todo-list");
 let form = document.querySelector("form");
 let storage = localStorage.getItem("todo");
-let tasks = storage ? JSON.parse(storage) : [10];
+let tasks = storage ? JSON.parse(storage) : [];
 
 // Event Handlers
 btn.onclick = create;
