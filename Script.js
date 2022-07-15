@@ -94,6 +94,5 @@ function performAction(e) {
     }
     parent.remove();
   }
-  window.localStorage.clear();
 
 }

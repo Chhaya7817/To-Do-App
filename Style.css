@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   body {
-    background: linear-gradient(120deg, pink, purple);
+    background-image: linear-gradient(to right, #0099f7, #f11712);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -86,4 +86,12 @@
   .todo-done {
     text-decoration: line-through;
     opacity: 0.5;
+  }
+
+  @media screen and (max-width:480) {
+    form
+    {
+      padding: 0px 20px;
+    } 
+    
   }
